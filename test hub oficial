@@ -6704,3 +6704,12 @@ end
 })
 
 
+Tabs.Ok:AddSection({"Join Server"})
+local ServerId = ""
+Tabs.Ok:AddTextBox({Name = "Input Job Id",Default = "",PlaceholderText = "Job ID",Callback = function(Value)
+  ServerId = Value
+end})
+Tabs.Ok:AddButton({"Join Server", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/Webhook/main/BloxFruits.lua"))():Teleport(ServerId)
+end})
+
