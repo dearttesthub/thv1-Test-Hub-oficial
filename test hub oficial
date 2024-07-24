@@ -16,6 +16,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }), 
     Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
     Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
+    M = Window:AddTab({ Title = "m", Icon = "castel" }),
     Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
     Teleport = Window:AddTab({ Title = "Teleport", Icon = "palmtree" }),
     Fruit = Window:AddTab({ Title = "Devil Fruit", Icon = "cherry" }),
@@ -23,7 +24,7 @@ local Tabs = {
     Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
     Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
-    Shop Mirage = Window:AddTab({ Title = "Check mirage shop", Icon = "castel" }),
+ 
 }
 local Options = Fluent.Options
 
