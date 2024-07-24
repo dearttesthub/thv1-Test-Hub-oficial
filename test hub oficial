@@ -6287,7 +6287,7 @@ Tabs.Misc:AddButton({
     })
 
 
-Tabs.Misc:AddButton({
+Tabs.Ok:AddButton({
 	Title = "View Stock",
 	Description = "",
 	Callback = function()
