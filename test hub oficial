@@ -6708,7 +6708,7 @@ local ServerId = ""
 Tabs:AddTextBox({Name = "Input Job Id",Default = "",PlaceholderText = "Job ID",Callback = function(Value)
   ServerId = Value
 end})
-Misc:AddButton({"Join Server", function()
+Tabs:AddButton({"Join Server", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/Webhook/main/BloxFruits.lua"))():Teleport(ServerId)
 end})
 
