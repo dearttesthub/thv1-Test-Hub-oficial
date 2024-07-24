@@ -6288,7 +6288,7 @@ Tabs.Misc:AddButton({
 
 
 Tabs.Ok:AddButton({
-	Title = "View Stock",
+	Title = "View Stock", 
 	Description = "",
 	Callback = function()
 		local args = {
