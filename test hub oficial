@@ -16,7 +16,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }), 
     Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
     Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
-    M = Window:AddTab({ Title = "m", Icon = "castel" }),
+    Ok = Window:AddTab({ Title = "OK", Icon = "castel" }),
     Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
     Teleport = Window:AddTab({ Title = "Teleport", Icon = "palmtree" }),
     Fruit = Window:AddTab({ Title = "Devil Fruit", Icon = "cherry" }),
