@@ -22,7 +22,8 @@ local Tabs = {
     Raid = Window:AddTab({ Title = "Dungeon", Icon = "swords" }),
     Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
+    Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
+    Shop Mirage = Window:AddTab({ Title = "Check mirage shop", Icon = "castel" }),
 }
 local Options = Fluent.Options
 
