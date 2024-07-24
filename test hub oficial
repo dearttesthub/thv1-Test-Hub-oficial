@@ -6282,8 +6282,3 @@ Tabs.Misc:AddButton({
 	end
 })
 
---Create Tabs
-    Tabs.m:AddParagraph({
-        Title = "Mirage",
-        Content = "Check mirage stock"
-    })
