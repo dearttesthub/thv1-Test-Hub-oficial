@@ -6281,4 +6281,7 @@ Tabs.Misc:AddButton({
 		game.Players.localPlayer.PlayerGui.Main.Titles.Visible = true
 	end
 })
-
+    Tabs.Main:AddParagraph({
+        Title = "Material",
+        Content = "Auto farm material"
+    })
