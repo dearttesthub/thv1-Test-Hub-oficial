@@ -6281,3 +6281,13 @@ Tabs.Misc:AddButton({
 		game.Players.localPlayer.PlayerGui.Main.Titles.Visible = true
 	end
 })
+
+--Create Tabs
+    Tabs.M:AddParagraph({
+        Title = "Mirage",
+        Content = "Check mirage stock"
+    })
+
+ local ToggleAutoFarmLevel = Tabs.M:AddToggle("ToggleAutoFarmLevel", {Title = "View Stock", Default = false })
+    ToggleAutoFarmLevel:OnChanged(function(Value)
+    function toTargetWait(a)local b=(a.p-game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").Position).Magnitude;tweenrach=game:GetService('TweenService'):Create(game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart"),TweenInfo.new(b/250,Enum.EasingStyle.Linear),{CFrame=a})tweenrach:Play()end;toTargetWait(workspace.Map.MysticIsland.PrimaryPart.CFrame*CFrame.new(0,250,0))
